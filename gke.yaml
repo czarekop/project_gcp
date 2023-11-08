@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: gcp-devops-gke
-        image: gcr.io/nomadic-utility-404020/gcpdevops:latest
+        image: gcr.io/account/gcpdevops:latest
         ports:
         - containerPort: 5000
         env:
